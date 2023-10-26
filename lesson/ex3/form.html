@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>お問合せフォーム</h1>
+    <form action="test.php" method="post">
+        <label for="name">名前</label>
+       <input type="text" required placeholder="氏名を入力してください" id="name">
+       <p>パスワードを入力</p>
+       <input type="password" required>
+       <p>ファイルの送信</p>
+       <input type="file">
+       <p>ラジオボタン</p>
+       <input type="radio" value="りんご">りんご
+       <p>チェックボックス</p>
+       <input type="checkbox" value="リンゴ">リンゴ
+       <p>プルダウン</p>
+       <select name="" id="">
+        <option value="リンゴ">リンゴ</option>
+        <option value="バナナ">バナナ</option>
+        <option value="ブドウ">ブドウ</option>
+       </select>
+       <textarea name="" id="" cols="30" rows="10"></textarea>
+       <div>
+        <label for="fruit">フルーツ</label>
+        <input id="fruit" type="radio" value="フルーツ">
+       </div>
+
+       <button>送信</button>
+    </form>
+</body>
+</html>
