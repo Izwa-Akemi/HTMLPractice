@@ -1,0 +1,21 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#a{
+    background-image: url(mountains.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#b{
+    background-image: url(mountains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#c{
+    background-image: url(mountains.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 50px;
+}

@@ -1,0 +1,33 @@
+*{
+    font-size: 20px;
+}
+#li-color{
+    color: red;
+}
+
+.text-color{
+    color: blue;
+    font-size: 50px;
+}
+/*idを指定して色を赤*/
+#contents{
+    color: red;
+}
+
+/*クラスを指定して色をblue*/
+.section{
+    color: blue;
+}
+
+/*要素divを指定して色をgreen*/
+div{
+    color: green;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
